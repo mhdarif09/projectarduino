@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8"/>
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-    <title>Direktorat Reserse Kriminal Umum</title>
+    <title>Detective DPO</title>
     <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" rel="stylesheet"/>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
     <style>
@@ -64,7 +64,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
-                <img alt="Polda Metro Jaya logo" height="50" src="https://storage.googleapis.com/a1aa/image/D8doKYeYijxqICjQ3KSBlHKuYC4d3HAeeR5DzacBUorfZTcPB.jpg" width="50"/>
+                <img alt="detective-DPO" height="50" src="https://storage.googleapis.com/a1aa/image/D8doKYeYijxqICjQ3KSBlHKuYC4d3HAeeR5DzacBUorfZTcPB.jpg" width="50"/>
             </a>
             <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#navbarNav" data-bs-toggle="collapse" type="button">
                 <span class="navbar-toggler-icon"></span>
@@ -72,26 +72,23 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Beranda</a>
+                        <a class="nav-link" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Profil</a>
+                        <a class="nav-link" href="#">Information</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Informasi</a>
+                        <a class="nav-link" href="#">Gallery</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Galeri</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">DPO</a>
+                        <a class="nav-link" href="#">Login</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
     <div class="hero-section">
-        <img alt="Background image of a press conference with police officers" height="1080" src="https://storage.googleapis.com/a1aa/image/YegtHIhK7AxTQC0ImjXxIXm6qOkCfqIJKap8pv5yi5dh2E3TA.jpg" width="1920"/>
+        <img alt="background-detective-DPO" height="1080" src="./assets/background.jpg" width="1920"/>
         <div class="overlay"></div>
         <div class="hero-text">
             <h1>Direktorat Reserse Kriminal Umum Polda Metro Jaya</h1>
