@@ -46,25 +46,25 @@
         .hero-text h1 {
             font-size: 3rem;
             font-weight: bold;
-            color: #ffc107;
+            color: #F1F0E8;
         }
         .hero-text .btn {
             margin: 10px;
-            border: 2px solid #ffc107;
-            color: #ffc107;
+            border: 2px solid #7ED4AD;
+            color: #F1F0E8;
             font-size: 1.2rem;
         }
         .hero-text .btn:hover {
-            background-color: #ffc107;
+            background-color: #7ED4AD;
             color: black;
         }
     </style>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
+        <div class="container">
             <a class="navbar-brand" href="#">
-                <img alt="detective-DPO" height="50" src="https://storage.googleapis.com/a1aa/image/D8doKYeYijxqICjQ3KSBlHKuYC4d3HAeeR5DzacBUorfZTcPB.jpg" width="50"/>
+                <img alt="detective-DPO" height="50" src="./assets/logo.png" width="50"/>
             </a>
             <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#navbarNav" data-bs-toggle="collapse" type="button">
                 <span class="navbar-toggler-icon"></span>
@@ -91,8 +91,8 @@
         <img alt="background-detective-DPO" height="1080" src="./assets/background.jpg" width="1920"/>
         <div class="overlay"></div>
         <div class="hero-text">
-            <h1>Direktorat Reserse Kriminal Umum Polda Metro Jaya</h1>
-            <a class="btn btn-outline-warning" href="#"><i class="fas fa-bullseye"></i> VISI & MISI</a>
+            <h1>Detective DPO</h1>
+            <a class="btn btn-outline-success" href="#"><i class="fas fa-bullseye"></i> VISI & MISI</a>
             <a class="btn btn-outline-warning" href="#"><i class="fas fa-newspaper"></i> BERITA TERKINI</a>
         </div>
     </div>
