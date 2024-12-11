@@ -1,9 +1,12 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\WelcomeController;
 use App\Http\Controllers\Auth\LoginController;
 use App\Http\Controllers\SuperAdmin\DpoController;
 use App\Http\Controllers\Admin\DpoStatusController;
+use App\Http\Controllers\Admin\DashboardController;
+use App\Http\Controllers\SuperAdmin\BlogController;
 
 
 
@@ -18,18 +21,17 @@ use App\Http\Controllers\Admin\DpoStatusController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [WelcomeController::class, 'index']);
+Route::get('/blog/{id}', [WelcomeController::class, 'showBlog'])->name('blog.show');
+
 
 Route::get('login', [LoginController::class, 'showLoginForm'])->name('login');
 Route::post('login', [LoginController::class, 'login']);
 Route::post('logout', [LoginController::class, 'logout'])->name('logout');
 
 Route::middleware(['auth', 'role:admin'])->group(function () {
-    Route::get('admin/dashboard', function () {
-        return 'Admin Dashboard';
-    })->name('admin.dashboard');
+    Route::get('admin/dashboard', [DashboardController::class, 'index'])->name('admin.dashboard');
+    Route::get('admin/export-dpo', [DashboardController::class, 'export'])->name('admin.exportDpo');
 });
 
 Route::middleware(['auth', 'role:super_admin'])->group(function () {
@@ -40,14 +42,12 @@ Route::middleware(['auth', 'role:super_admin'])->group(function () {
 
 
 Route::middleware(['auth', 'role:admin'])->group(function () {
-    Route::get('/admin/dashboard', function () {
-        return view('admin.dashboard');
-    })->name('admin.dashboard');
-
+    Route::get('admin/dashboard', [DashboardController::class, 'index'])->name('admin.dashboard');
+    Route::get('admin/export-dpo', [DashboardController::class, 'export'])->name('admin.exportDpo');
+});
     Route::get('/admin/check-dpo', function () {
         return view('admin.check_dpo');
     })->name('admin.checkDpoPage');
-});
 
 Route::prefix('superadmin/dpo')->name('superadmin.dpo.')->middleware('role:super_admin')->group(function() {
     Route::get('/', [DpoController::class, 'index'])->name('index');
@@ -61,4 +61,15 @@ Route::prefix('superadmin/dpo')->name('superadmin.dpo.')->middleware('role:super
 Route::middleware(['auth', 'role:admin'])->group(function () {
     Route::view('/admin/check-dpo', 'admin.check_dpo')->name('admin.checkDpoPage');
     Route::post('/admin/check-dpo', [DpoStatusController::class, 'checkDpo'])->name('admin.checkDpo');
+});
+
+// Blogs
+
+Route::prefix('superadmin')->middleware(['auth', 'role:super_admin'])->group(function () {
+    Route::get('blogs', [BlogController::class, 'index'])->name('superadmin.blog.index');
+    Route::get('blogs/create', [BlogController::class, 'create'])->name('superadmin.blog.create');
+    Route::post('blogs', [BlogController::class, 'store'])->name('superadmin.blog.store');
+    Route::get('blogs/{id}/edit', [BlogController::class, 'edit'])->name('superadmin.blog.edit');
+    Route::put('blogs/{id}', [BlogController::class, 'update'])->name('superadmin.blog.update');
+    Route::delete('blogs/{id}', [BlogController::class, 'destroy'])->name('superadmin.blog.destroy');
 });

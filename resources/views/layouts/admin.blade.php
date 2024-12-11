@@ -7,10 +7,12 @@
     <title>Admin Panel - @yield('title', 'Dashboard')</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+
     <!-- Custom CSS -->
     <style>
         body {
             font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
         }
         .sidebar {
             height: 100vh;
@@ -27,6 +29,18 @@
         .sidebar a:hover {
             background: #495057;
         }
+        .main-content {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .card-body {
+            padding: 1.5rem;
+        }
+        .chart-container {
+            margin-top: 20px;
+        }
     </style>
 </head>
 <body>
@@ -35,7 +49,7 @@
             <!-- Sidebar -->
             <nav class="col-md-3 col-lg-2 d-md-block bg-dark sidebar">
                 <div class="sidebar-sticky">
-                    <h3 class="text-center py-3">Admin Panel</h3>
+                    <h3 class="text-center py-3 text-white">Admin Panel</h3>
                     <ul class="nav flex-column">
                         <li class="nav-item">
                             <a href="{{ route('admin.dashboard') }}" class="nav-link">Dashboard</a>
@@ -48,7 +62,7 @@
                         </li>
                         <li class="nav-item">
                             <a href="{{ route('logout') }}" class="nav-link"
-                                onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+                               onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
                                 Logout
                             </a>
                         </li>
@@ -72,5 +86,6 @@
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    @stack('scripts') <!-- Menambahkan script dari bagian @push('scripts') -->
 </body>
 </html>

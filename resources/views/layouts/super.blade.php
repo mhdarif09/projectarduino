@@ -44,7 +44,7 @@
                             <a href="{{ route('superadmin.dpo.index') }}" class="nav-link">Manage DPO</a>
                         </li>
                         <li class="nav-item">
-                            <a href="{{ route('admin.checkDpoPage') }}" class="nav-link">Check DPO</a>
+                            <a href="{{ route('superadmin.blog.index')}}"class="nav-link">Blog</a>
                         </li>
                         <li class="nav-item">
                             <a href="{{ route('logout') }}" class="nav-link"
