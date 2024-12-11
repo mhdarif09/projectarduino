@@ -30,7 +30,7 @@
         .navbar-nav .nav-link:hover {
             color: #ffc107 !important;
         }
-        
+
         /* Hero Section */
         .hero-section {
             position: relative;
@@ -113,7 +113,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="/">
                 <img alt="detective-DPO" src="./assets/logo.png"/>
             </a>
             <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#navbarNav" data-bs-toggle="collapse" type="button">
@@ -122,13 +122,13 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
+                        <a class="nav-link" href="/">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#visi-misi">Visi & Misi</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#team-member">Our Team</a>
+                        <a class="nav-link" href="/#team-member">Our Team</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="{{ route('login') }}">Login</a>
@@ -149,7 +149,7 @@
         <p>Membangun solusi keamanan dan perlindungan data yang dapat diandalkan, dengan meningkatkan kesadaran dan kepatuhan terhadap peraturan perlindungan data pribadi (DPO) di berbagai organisasi.</p>
 
         <h2 class="section-title">Misi</h2>
-        <ul>
+        <ul style="list-style-type:disc;">
             <li>Menyediakan layanan deteksi dan pemantauan kepatuhan terhadap Data Protection Officer (DPO) di organisasi.</li>
             <li>Memberikan pelatihan dan penyuluhan mengenai pentingnya perlindungan data pribadi.</li>
             <li>Membantu organisasi untuk menyusun laporan kepatuhan DPO secara terstruktur dan sesuai dengan regulasi.</li>
