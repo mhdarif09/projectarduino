@@ -3,7 +3,7 @@
 @section('content')
 <div class="container">
     <h1>Add New DPO</h1>
-    
+
     <form action="{{ route('superadmin.dpo.store') }}" method="POST">
         @csrf
         <div class="form-group">
@@ -25,7 +25,7 @@
             </select>
         </div>
 
-        <button type="submit" class="btn btn-success">Save</button>
+        <button type="submit" class="btn btn-success my-3">Save</button>
     </form>
 </div>
 @endsection

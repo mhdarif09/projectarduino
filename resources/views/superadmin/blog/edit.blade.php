@@ -1,4 +1,4 @@
-@extends('layouts.admin')
+@extends('layouts.super')
 
 @section('content')
     <h3>Edit Blog</h3>

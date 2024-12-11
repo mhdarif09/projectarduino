@@ -35,10 +35,10 @@
             <!-- Sidebar -->
             <nav class="col-md-3 col-lg-2 d-md-block bg-dark sidebar">
                 <div class="sidebar-sticky">
-                    <h3 class="text-center py-3">Admin Panel</h3>
+                    <h3 class="text-center py-3">Super Admin</h3>
                     <ul class="nav flex-column">
                         <li class="nav-item">
-                            <a href="{{ route('admin.dashboard') }}" class="nav-link">Dashboard</a>
+                            <a href="{{ route('superadmin.dashboard') }}" class="nav-link">Dashboard</a>
                         </li>
                         <li class="nav-item">
                             <a href="{{ route('superadmin.dpo.index') }}" class="nav-link">Manage DPO</a>

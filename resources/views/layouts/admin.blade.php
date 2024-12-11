@@ -15,6 +15,7 @@
             background-color: #f8f9fa;
         }
         .sidebar {
+            position: fixed;
             height: 100vh;
             background: #343a40;
             color: white;
@@ -34,6 +35,7 @@
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            margin-left: 17rem;
         }
         .card-body {
             padding: 1.5rem;
@@ -47,15 +49,12 @@
     <div class="container-fluid">
         <div class="row">
             <!-- Sidebar -->
-            <nav class="col-md-3 col-lg-2 d-md-block bg-dark sidebar">
+            <nav class="col-2 sidebar bg-dark">
                 <div class="sidebar-sticky">
-                    <h3 class="text-center py-3 text-white">Admin Panel</h3>
+                    <h3 class="text-center py-3 text-white">Admin</h3>
                     <ul class="nav flex-column">
                         <li class="nav-item">
                             <a href="{{ route('admin.dashboard') }}" class="nav-link">Dashboard</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="{{ route('superadmin.dpo.index') }}" class="nav-link">Manage DPO</a>
                         </li>
                         <li class="nav-item">
                             <a href="{{ route('admin.checkDpoPage') }}" class="nav-link">Check DPO</a>
@@ -71,7 +70,7 @@
             </nav>
 
             <!-- Main Content -->
-            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-md-4">
+            <main role="main" class="col-10 main-content">
                 <div class="py-4">
                     @yield('content')
                 </div>

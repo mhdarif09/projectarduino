@@ -5,14 +5,14 @@
 @section('content')
 <div class="container">
 
-    <h3 class="mt-5 mb-4">DPO Status Overview</h3>
+    <h3 class="mt-0 mb-4">DPO Status Overview</h3>
 
     <div class="row">
         <!-- DPO Chart -->
         <div class="col-md-6 col-12">
             <div class="card">
-                <div class="card-header bg-primary text-white">
-                    <h5>DPO Chart</h5>
+                <div class="card-header bg-danger text-center text-white">
+                    <h5 class="fw-bold">DPO Chart</h5>
                 </div>
                 <div class="card-body">
                     <canvas id="dpoChart" width="400" height="200"></canvas>
@@ -23,8 +23,8 @@
         <!-- Non-DPO Chart -->
         <div class="col-md-6 col-12">
             <div class="card">
-                <div class="card-header bg-secondary text-white">
-                    <h5>Bukan DPO Chart</h5>
+                <div class="card-header bg-success text-center text-white">
+                    <h5 class="fw-bold">Bukan DPO Chart</h5>
                 </div>
                 <div class="card-body">
                     <canvas id="nonDpoChart" width="400" height="200"></canvas>
@@ -50,9 +50,9 @@
             labels: ['DPO'],
             datasets: [{
                 label: 'DPO Status',
-                data: [{{ $totalDPO }}], 
-                backgroundColor: ['#FF6384'],
-                borderColor: ['#FF6384'],
+                data: [{{ $totalDPO }}],
+                backgroundColor: ['#FF2929'],
+                borderColor: ['#FF2929'],
                 borderWidth: 1
             }]
         },
@@ -70,8 +70,8 @@
             datasets: [{
                 label: 'Bukan DPO Status',
                 data: [{{ $totalNonDPO }}],
-                backgroundColor: ['#36A2EB'],
-                borderColor: ['#36A2EB'],
+                backgroundColor: ['#117554'],
+                borderColor: ['#117554'],
                 borderWidth: 1
             }]
         },

@@ -127,13 +127,13 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
+                        <a class="nav-link" href="/">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Information</a>
+                        <a class="nav-link" href="#latest-posts">Information</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Gallery</a>
+                        <a class="nav-link" href="#team-member">Our Team</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="{{ route('login') }}">Login</a>
@@ -210,13 +210,13 @@
                 </div>
             @endforeach
         </div>
-        
+
         <!-- Pagination -->
         <div class="d-flex justify-content-center">
             {{ $blogs->links('pagination::bootstrap-5') }}
         </div>
     </div>
-    <div class="container mt-5">
+    <div class="container mt-5" id="team-member">
         <h2 class="section-title text-center text-dark mb-4">Our Team</h2>
         <div class="row">
             <!-- Team Members (Initial 5) -->
@@ -232,7 +232,7 @@
                                 <i class="fab fa-instagram"> Instagram </i>
                             </a>
                             <a href="https://www.linkedin.com/in/muhammad-arif-rahmad-syahputra/" target="_blank" class="text-dark me-2">
-                                <i class="fab fa-linkedin"> Linkedin </i>
+                                <i class="fab fa-linkedin"> LinkedIn </i>
                             </a>
                             <a href="https://github.com/mhdarif09" target="_blank" class="text-dark">
                                 <i class="fab fa-github"> Github </i>
@@ -243,20 +243,20 @@
             </div>
             <div class="col-md-4 mb-4 team-member show">
                 <div class="card">
-                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="Team Member">
+                    <img src="./assets/sugiyanto.jpg" class="card-img-top" alt="Team Member">
                     <div class="card-body">
-                        <h5 class="card-title">Team Member 2</h5>
+                        <h5 class="card-title">Sugiyanto</h5>
                         <p class="card-text">Description of team member 2.</p>
                         <!-- Social Media Links -->
                         <div class="social-icons">
-                            <a href="https://www.instagram.com" target="_blank" class="text-dark me-2">
-                                <i class="fab fa-instagram"></i>
+                            <a href="https://www.instagram.com/sugiyanto_tan02" target="_blank" class="text-dark me-2">
+                                <i class="fab fa-instagram"> Instagram </i>
                             </a>
-                            <a href="https://www.linkedin.com" target="_blank" class="text-dark me-2">
-                                <i class="fab fa-linkedin"></i>
+                            <a href="https://www.linkedin.com/in/sugiyanto-tan-77935a2a7/" target="_blank" class="text-dark me-2">
+                                <i class="fab fa-linkedin"> LinkedIn </i>
                             </a>
-                            <a href="https://github.com" target="_blank" class="text-dark">
-                                <i class="fab fa-github"></i>
+                            <a href="https://github.com/Sugiyanto02" target="_blank" class="text-dark">
+                                <i class="fab fa-github"> Github </i>
                             </a>
                         </div>
                     </div>
@@ -325,7 +325,7 @@
                     </div>
                 </div>
             </div>
-    
+
             <!-- Hidden Team Members (Additional 8) -->
             <div class="col-md-4 mb-4 team-member">
                 <div class="card">
@@ -349,14 +349,14 @@
                 </div>
             </div>
             <!-- Repeat this structure for the other team members... -->
-    
+
         </div>
         <!-- Button to Show All Team Members -->
         <div class="text-center mt-4">
             <button id="show-team" class="btn btn-outline-success">Show All Team</button>
         </div>
     </div>
-    
+
     <script>
         document.getElementById('show-team').addEventListener('click', function() {
             // Show all hidden team members
@@ -368,8 +368,8 @@
             this.style.display = 'none';
         });
     </script>
-    
-  
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <script>
         document.querySelector('.scroll-down').addEventListener('click', function() {
