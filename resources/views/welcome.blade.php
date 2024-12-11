@@ -127,7 +127,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="/">Home</a>
+                        <a class="nav-link" href="#">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#latest-posts">Information</a>
@@ -157,7 +157,7 @@
         </div>
     </div>
   <!-- Layanan Section -->
-<div class="container mt-5">
+<div class="container mt-5 " id="layanan">">
     <h2 class="section-title text-center text-dark mb-4">Our Services</h2>
     <div class="row">
         <!-- Detect DPO Service -->
@@ -210,7 +210,7 @@
                 </div>
             @endforeach
         </div>
-
+        
         <!-- Pagination -->
         <div class="d-flex justify-content-center">
             {{ $blogs->links('pagination::bootstrap-5') }}
@@ -232,7 +232,7 @@
                                 <i class="fab fa-instagram"> Instagram </i>
                             </a>
                             <a href="https://www.linkedin.com/in/muhammad-arif-rahmad-syahputra/" target="_blank" class="text-dark me-2">
-                                <i class="fab fa-linkedin"> LinkedIn </i>
+                                <i class="fab fa-linkedin"> Linkedin </i>
                             </a>
                             <a href="https://github.com/mhdarif09" target="_blank" class="text-dark">
                                 <i class="fab fa-github"> Github </i>
@@ -266,7 +266,7 @@
                 <div class="card">
                     <img src="https://via.placeholder.com/150" class="card-img-top" alt="Team Member">
                     <div class="card-body">
-                        <h5 class="card-title">Team Member 3</h5>
+                        <h5 class="card-title">Inayah Utami</h5>
                         <p class="card-text">Description of team member 3.</p>
                         <!-- Social Media Links -->
                         <div class="social-icons">
@@ -287,7 +287,7 @@
                 <div class="card">
                     <img src="https://via.placeholder.com/150" class="card-img-top" alt="Team Member">
                     <div class="card-body">
-                        <h5 class="card-title">Team Member 4</h5>
+                        <h5 class="card-title">Ramadhan Satria</h5>
                         <p class="card-text">Description of team member 4.</p>
                         <!-- Social Media Links -->
                         <div class="social-icons">
@@ -308,7 +308,7 @@
                 <div class="card">
                     <img src="https://via.placeholder.com/150" class="card-img-top" alt="Team Member">
                     <div class="card-body">
-                        <h5 class="card-title">Team Member 5</h5>
+                        <h5 class="card-title">Al Habib Prawira</h5>
                         <p class="card-text">Description of team member 5.</p>
                         <!-- Social Media Links -->
                         <div class="social-icons">
@@ -325,13 +325,11 @@
                     </div>
                 </div>
             </div>
-
-            <!-- Hidden Team Members (Additional 8) -->
-            <div class="col-md-4 mb-4 team-member">
+            <div class="col-md-4 mb-4 team-member show">
                 <div class="card">
                     <img src="https://via.placeholder.com/150" class="card-img-top" alt="Team Member">
                     <div class="card-body">
-                        <h5 class="card-title">Team Member 6</h5>
+                        <h5 class="card-title">Isnaini Pa'izah</h5>
                         <p class="card-text">Description of team member 6.</p>
                         <!-- Social Media Links -->
                         <div class="social-icons">
@@ -348,14 +346,220 @@
                     </div>
                 </div>
             </div>
-            <!-- Repeat this structure for the other team members... -->
+    
+    
+            <!-- Hidden Team Members (Additional 8) -->
+            <div class="col-md-4 mb-4 team-member">
+                <div class="card">
+                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="Team Member">
+                    <div class="card-body">
+                        <h5 class="card-title">Ilaikal Faturrahman</h5>
+                        <p class="card-text">Description of team member 7.</p>
+                        <!-- Social Media Links -->
+                        <div class="social-icons">
+                            <a href="https://www.instagram.com" target="_blank" class="text-dark me-2">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://www.linkedin.com" target="_blank" class="text-dark me-2">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://github.com" target="_blank" class="text-dark">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
+            <div class="col-md-4 mb-4 team-member">
+                <div class="card">
+                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="Team Member">
+                    <div class="card-body">
+                        <h5 class="card-title">Riski</h5>
+                        <p class="card-text">Description of team member 7.</p>
+                        <!-- Social Media Links -->
+                        <div class="social-icons">
+                            <a href="https://www.instagram.com" target="_blank" class="text-dark me-2">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://www.linkedin.com" target="_blank" class="text-dark me-2">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://github.com" target="_blank" class="text-dark">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4 team-member">
+                <div class="card">
+                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="Team Member">
+                    <div class="card-body">
+                        <h5 class="card-title">Nezo </h5>
+                        <p class="card-text">Description of team member 7.</p>
+                        <!-- Social Media Links -->
+                        <div class="social-icons">
+                            <a href="https://www.instagram.com" target="_blank" class="text-dark me-2">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://www.linkedin.com" target="_blank" class="text-dark me-2">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://github.com" target="_blank" class="text-dark">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4 team-member">
+                <div class="card">
+                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="Team Member">
+                    <div class="card-body">
+                        <h5 class="card-title">Muhammad Jagad</h5>
+                        <p class="card-text">Description of team member 7.</p>
+                        <!-- Social Media Links -->
+                        <div class="social-icons">
+                            <a href="https://www.instagram.com" target="_blank" class="text-dark me-2">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://www.linkedin.com" target="_blank" class="text-dark me-2">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://github.com" target="_blank" class="text-dark">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4 team-member">
+                <div class="card">
+                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="Team Member">
+                    <div class="card-body">
+                        <h5 class="card-title">Joe Mario</h5>
+                        <p class="card-text">Description of team member 7.</p>
+                        <!-- Social Media Links -->
+                        <div class="social-icons">
+                            <a href="https://www.instagram.com" target="_blank" class="text-dark me-2">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://www.linkedin.com" target="_blank" class="text-dark me-2">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://github.com" target="_blank" class="text-dark">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4 team-member">
+                <div class="card">
+                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="Team Member">
+                    <div class="card-body">
+                        <h5 class="card-title">Destry</h5>
+                        <p class="card-text">Description of team member 7.</p>
+                        <!-- Social Media Links -->
+                        <div class="social-icons">
+                            <a href="https://www.instagram.com" target="_blank" class="text-dark me-2">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://www.linkedin.com" target="_blank" class="text-dark me-2">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://github.com" target="_blank" class="text-dark">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4 team-member">
+                <div class="card">
+                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="Team Member">
+                    <div class="card-body">
+                        <h5 class="card-title">Valenza</h5>
+                        <p class="card-text">Description of team member 7.</p>
+                        <!-- Social Media Links -->
+                        <div class="social-icons">
+                            <a href="https://www.instagram.com" target="_blank" class="text-dark me-2">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://www.linkedin.com" target="_blank" class="text-dark me-2">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://github.com" target="_blank" class="text-dark">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Repeat this structure for the other team members... -->
+    
         </div>
         <!-- Button to Show All Team Members -->
-        <div class="text-center mt-4">
+        <div class="text-center my-4">
             <button id="show-team" class="btn btn-outline-success">Show All Team</button>
         </div>
     </div>
+    
+    {{-- Footer --}}
+
+    <footer class="bg-dark text-white pt-5 pb-4">
+        <div class="container text-center text-md-start">
+          <div class="row">
+            <!-- Logo dan Deskripsi -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <h5 class="text-uppercase fw-bold mb-4">
+                <i class="bi bi-gem me-2"></i>Detective DPO
+              </h5>
+              <p>
+                Solusi inovatif untuk Mencegah orang berlari dalam kasus tertentu di indonesia.
+              </p>
+            </div>
+      
+            <!-- Links -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">Links</h6>
+              <p><a href="/" class="text-white text-decoration-none">Home</a></p>
+              <p><a href="#!" class="text-white text-decoration-none">About</a></p>
+              <p><a href="#layanan" class="text-white text-decoration-none">Services</a></p>
+              <p><a href="#!" class="text-white text-decoration-none">Contact</a></p>
+            </div>
+      
+            <!-- Useful Links -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">Useful Links</h6>
+              <p><a href="#!" class="text-white text-decoration-none">Privacy Policy</a></p>
+              <p><a href="#!" class="text-white text-decoration-none">Terms of Service</a></p>
+              <p><a href="#!" class="text-white text-decoration-none">FAQ</a></p>
+              <p><a href="#!" class="text-white text-decoration-none">Support</a></p>
+            </div>
+      
+            <!-- Kontak -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+              <p><i class="bi bi-house-door-fill me-2"></i> Palembang, Indonesia</p>
+              <p><i class="bi bi-envelope-fill me-2"></i> info@detective.com</p>
+              <p><i class="bi bi-phone-fill me-2"></i> +62 812-3456-7890</p>
+              <p><i class="bi bi-clock-fill me-2"></i> Mon - Fri, 9:00-17:00</p>
+            </div>
+          </div>
+        </div>
+      
+        <!-- Copyright -->
+        <div class="text-center p-3 mt-4" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2024 <a class="text-white fw-bold text-decoration-none" href="#">Detective DPO</a>. All rights reserved.
+        </div>
+      </footer>
+
+      {{-- End Section Footer --}}
 
     <script>
         document.getElementById('show-team').addEventListener('click', function() {
@@ -368,8 +572,8 @@
             this.style.display = 'none';
         });
     </script>
-
-
+    
+  
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <script>
         document.querySelector('.scroll-down').addEventListener('click', function() {

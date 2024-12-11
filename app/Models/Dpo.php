@@ -8,6 +8,9 @@ class Dpo extends Model
 {
     use HasFactory;
 
+    protected $primaryKey = 'nik';
+    public $incrementing = false;  // Karena nik biasanya bukan auto-increment
+    protected $keyType = 'string'; // Jika nik adalah tipe string, bukan integer
     // Nama tabel yang sesuai
     protected $table = 'dpo'; 
 

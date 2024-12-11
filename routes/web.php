@@ -23,6 +23,7 @@ use App\Http\Controllers\SuperAdmin\BlogController;
 
 Route::get('/', [WelcomeController::class, 'index']);
 Route::get('/blog/{id}', [WelcomeController::class, 'showBlog'])->name('blog.show');
+Route::view('/visi-misi', 'visi');
 
 
 Route::get('login', [LoginController::class, 'showLoginForm'])->name('login');

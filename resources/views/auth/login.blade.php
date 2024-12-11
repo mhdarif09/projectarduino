@@ -37,8 +37,19 @@
             font-size: 14px;
             color: #dc3545;
         }
+        .back-to-home {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .back-to-home a {
+            text-decoration: none;
+            font-size: 16px;
+            color: #0d6efd;
+        }
+        .back-to-home a:hover {
+            text-decoration: underline;
+        }
     </style>
-
 </head>
 <body>
     <div class="login-container">
@@ -62,6 +73,10 @@
                 @endforeach
             </div>
         @endif
+        <!-- Link kembali ke Home -->
+        <div class="back-to-home">
+            <a href="/">Kembali ke Home</a>
+        </div>
     </div>
 
     <!-- Bootstrap JS (Optional for interactive components) -->

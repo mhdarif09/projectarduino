@@ -4,7 +4,7 @@
 <div class="container">
     <h1>Edit DPO</h1>
 
-    <form action="{{ route('superadmin.dpo.update', $dpo->id) }}" method="POST">
+    <form action="{{ route('superadmin.dpo.update', $dpo->nik) }}" method="POST">
         @csrf
         @method('PUT')
         <div class="form-group">
@@ -25,7 +25,7 @@
             </select>
         </div>
 
-        <button type="submit" class="btn btn-success">Update</button>
+        <button type="submit" class="btn btn-success my-3">Update</button>
     </form>
 </div>
 @endsection

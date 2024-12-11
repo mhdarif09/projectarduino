@@ -64,11 +64,12 @@ class DpoController extends Controller
     }
     
     public function destroy($nik)
-    {
-        // Find the DPO by 'nik' and delete it
-        $dpo = Dpo::where('nik', $nik)->firstOrFail();
-        $dpo->delete();
-    
-        return redirect()->route('superadmin.dpo.index')->with('success', 'DPO deleted successfully.');
-    }    
+{
+    // Cari DPO berdasarkan 'nik'
+    $dpo = Dpo::where('nik', $nik)->firstOrFail();
+    $dpo->delete();  // Hapus data berdasarkan nik
+
+    return redirect()->route('superadmin.dpo.index')->with('success', 'DPO deleted successfully.');
+}
+
 }
