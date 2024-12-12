@@ -265,7 +265,7 @@
                     <img src="./assets/arif.jpeg" class="card-img-top" alt="Team Member">
                     <div class="card-body">
                         <h5 class="card-title">Muhammad Arif</h5>
-                        <p class="card-text">Description of team member 1.</p>
+                        <p class="card-text">Startup Ethunsiast & Web Developer.</p>
                         <!-- Social Media Links -->
                         <div class="social-icons">
                             <a href="https://www.instagram.com/mhmmdarif.rs" target="_blank" class="text-dark me-2">
@@ -273,7 +273,7 @@
                             </a>
                             <a href="https://www.linkedin.com/in/muhammad-arif-rahmad-syahputra/" target="_blank"
                                 class="text-dark me-2">
-                                <i class="fab fa-linkedin"> Linkedin </i>
+                                <i class="fab fa-linkedin"> LinkedIn </i>
                             </a>
                             <a href="https://github.com/mhdarif09" target="_blank" class="text-dark">
                                 <i class="fab fa-github"> Github </i>
@@ -287,7 +287,7 @@
                     <img src="./assets/sugiyanto.jpg" class="card-img-top" alt="Team Member">
                     <div class="card-body">
                         <h5 class="card-title">Sugiyanto</h5>
-                        <p class="card-text">Description of team member 2.</p>
+                        <p class="card-text">Front-End Web Developer.</p>
                         <!-- Social Media Links -->
                         <div class="social-icons">
                             <a href="https://www.instagram.com/sugiyanto_tan02" target="_blank"
@@ -307,20 +307,20 @@
             </div>
             <div class="col-md-4 mb-4 team-member show">
                 <div class="card">
-                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="Team Member">
+                    <img src="./assets/inayah.jpg" class="card-img-top" alt="Team Member">
                     <div class="card-body">
                         <h5 class="card-title">Inayah Utami</h5>
-                        <p class="card-text">Description of team member 3.</p>
+                        <p class="card-text">UI/UX Designer.</p>
                         <!-- Social Media Links -->
                         <div class="social-icons">
-                            <a href="https://www.instagram.com" target="_blank" class="text-dark me-2">
-                                <i class="fab fa-instagram"></i>
+                            <a href="https://www.instagram.com/inyh_utt" target="_blank" class="text-dark me-2">
+                                <i class="fab fa-instagram"> Instagram </i>
                             </a>
-                            <a href="https://www.linkedin.com" target="_blank" class="text-dark me-2">
-                                <i class="fab fa-linkedin"></i>
+                            <a href="http://www.linkedin.com/in/inayah-utami-812b9b307" target="_blank" class="text-dark me-2">
+                                <i class="fab fa-linkedin"> LinkedIn </i>
                             </a>
-                            <a href="https://github.com" target="_blank" class="text-dark">
-                                <i class="fab fa-github"></i>
+                            <a href="https://github.com/Inayahutami10" target="_blank" class="text-dark">
+                                <i class="fab fa-github"> Github </i>
                             </a>
                         </div>
                     </div>
@@ -328,62 +328,62 @@
             </div>
             <div class="col-md-4 mb-4 team-member show">
                 <div class="card">
-                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="Team Member">
+                    <img src="./assets/rama.jpg" class="card-img-top" alt="Team Member">
                     <div class="card-body">
-                        <h5 class="card-title">Ramadhan Satria</h5>
-                        <p class="card-text">Description of team member 4.</p>
+                        <h5 class="card-title">Muhammad Ramandha Satria</h5>
+                        <p class="card-text">Architecture Design.</p>
                         <!-- Social Media Links -->
                         <div class="social-icons">
-                            <a href="https://www.instagram.com" target="_blank" class="text-dark me-2">
-                                <i class="fab fa-instagram"></i>
+                            <a href="https://www.instagram.com/ramaaaaaaaaaa.a?" target="_blank" class="text-dark me-2">
+                                <i class="fab fa-instagram"> Instagram </i>
                             </a>
-                            <a href="https://www.linkedin.com" target="_blank" class="text-dark me-2">
-                                <i class="fab fa-linkedin"></i>
+                            <a href="http://www.linkedin.com/in/muhammad-ramandha-satrya-464667284" target="_blank" class="text-dark me-2">
+                                <i class="fab fa-linkedin"> LinkedIn </i>
                             </a>
-                            <a href="https://github.com" target="_blank" class="text-dark">
-                                <i class="fab fa-github"></i>
-                            </a>
+                            {{-- <a href="https://github.com" target="_blank" class="text-dark">
+                                <i class="fab fa-github"> Github </i>
+                            </a> --}}
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-md-4 mb-4 team-member show">
                 <div class="card">
-                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="Team Member">
+                    <img src="./assets/habib.jpg" class="card-img-top" alt="Team Member">
                     <div class="card-body">
                         <h5 class="card-title">Al Habib Prawira</h5>
-                        <p class="card-text">Description of team member 5.</p>
+                        <p class="card-text">Architecture Design.</p>
                         <!-- Social Media Links -->
                         <div class="social-icons">
-                            <a href="https://www.instagram.com" target="_blank" class="text-dark me-2">
-                                <i class="fab fa-instagram"></i>
+                            <a href="https://www.instagram.com/alfata_fawwaz" target="_blank" class="text-dark me-2">
+                                <i class="fab fa-instagram"> Instagram </i>
                             </a>
-                            <a href="https://www.linkedin.com" target="_blank" class="text-dark me-2">
-                                <i class="fab fa-linkedin"></i>
+                            {{-- <a href="https://www.linkedin.com" target="_blank" class="text-dark me-2">
+                                <i class="fab fa-linkedin"> LinkedIn </i>
                             </a>
                             <a href="https://github.com" target="_blank" class="text-dark">
-                                <i class="fab fa-github"></i>
-                            </a>
+                                <i class="fab fa-github"> Github </i>
+                            </a> --}}
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-md-4 mb-4 team-member show">
                 <div class="card">
-                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="Team Member">
+                    <img src="./assets/isnaini.jpg" class="card-img-top" alt="Team Member">
                     <div class="card-body">
-                        <h5 class="card-title">Isnaini Pa'izah</h5>
-                        <p class="card-text">Description of team member 6.</p>
+                        <h5 class="card-title">Isnaini Pa'iza Fitri</h5>
+                        <p class="card-text">UI/UX Designer.</p>
                         <!-- Social Media Links -->
                         <div class="social-icons">
-                            <a href="https://www.instagram.com" target="_blank" class="text-dark me-2">
-                                <i class="fab fa-instagram"></i>
+                            <a href="https://www.instagram.com/isnifzatri" target="_blank" class="text-dark me-2">
+                                <i class="fab fa-instagram"> Instagram </i>
                             </a>
-                            <a href="https://www.linkedin.com" target="_blank" class="text-dark me-2">
-                                <i class="fab fa-linkedin"></i>
+                            <a href="https://www.linkedin.com/in/paiza23" target="_blank" class="text-dark me-2">
+                                <i class="fab fa-linkedin"> LinkedIn </i>
                             </a>
-                            <a href="https://github.com" target="_blank" class="text-dark">
-                                <i class="fab fa-github"></i>
+                            <a href="https://github.com/isni23" target="_blank" class="text-dark">
+                                <i class="fab fa-github"> Github </i>
                             </a>
                         </div>
                     </div>
@@ -394,21 +394,43 @@
             <!-- Hidden Team Members (Additional 8) -->
             <div class="col-md-4 mb-4 team-member">
                 <div class="card">
-                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="Team Member">
+                    <img src="./assets/ilaikal.jpg" class="card-img-top" alt="Team Member">
                     <div class="card-body">
                         <h5 class="card-title">Ilaikal Faturrahman</h5>
-                        <p class="card-text">Description of team member 7.</p>
+                        <p class="card-text">Advice Giver & Supervisor.</p>
                         <!-- Social Media Links -->
                         <div class="social-icons">
-                            <a href="https://www.instagram.com" target="_blank" class="text-dark me-2">
-                                <i class="fab fa-instagram"></i>
+                            <a href="https://www.instagram.com/ilaikalfathurrahman" target="_blank" class="text-dark me-2">
+                                <i class="fab fa-instagram"> Instagram </i>
                             </a>
-                            <a href="https://www.linkedin.com" target="_blank" class="text-dark me-2">
-                                <i class="fab fa-linkedin"></i>
+                            <a href="https://www.linkedin.com/in/ilaikal-fathurrahman-11215b340" target="_blank" class="text-dark me-2">
+                                <i class="fab fa-linkedin"> LinkedIn </i>
+                            </a>
+                            <a href="https://github.com/Kal-ikal" target="_blank" class="text-dark">
+                                <i class="fab fa-github"> Github </i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4 team-member">
+                <div class="card">
+                    <img src="./assets/riski.jpg" class="card-img-top" alt="Team Member">
+                    <div class="card-body">
+                        <h5 class="card-title">Riski Hamdani</h5>
+                        <p class="card-text">Architecture Design.</p>
+                        <!-- Social Media Links -->
+                        <div class="social-icons">
+                            <a href="https://www.instagram.com/risk_ihamdani24" target="_blank" class="text-dark me-2">
+                                <i class="fab fa-instagram"> Instagram </i>
+                            </a>
+                            {{-- <a href="https://www.linkedin.com" target="_blank" class="text-dark me-2">
+                                <i class="fab fa-linkedin"> LinkedIn </i>
                             </a>
                             <a href="https://github.com" target="_blank" class="text-dark">
-                                <i class="fab fa-github"></i>
-                            </a>
+                                <i class="fab fa-github"> Github </i>
+                            </a> --}}
                         </div>
                     </div>
                 </div>
@@ -418,18 +440,18 @@
                 <div class="card">
                     <img src="https://via.placeholder.com/150" class="card-img-top" alt="Team Member">
                     <div class="card-body">
-                        <h5 class="card-title">Riski</h5>
-                        <p class="card-text">Description of team member 7.</p>
+                        <h5 class="card-title">Nezo Alesandro</h5>
+                        <p class="card-text">Beautifull World.</p>
                         <!-- Social Media Links -->
                         <div class="social-icons">
                             <a href="https://www.instagram.com" target="_blank" class="text-dark me-2">
-                                <i class="fab fa-instagram"></i>
+                                <i class="fab fa-instagram"> Instagram </i>
                             </a>
                             <a href="https://www.linkedin.com" target="_blank" class="text-dark me-2">
-                                <i class="fab fa-linkedin"></i>
+                                <i class="fab fa-linkedin"> LinkedIn </i>
                             </a>
                             <a href="https://github.com" target="_blank" class="text-dark">
-                                <i class="fab fa-github"></i>
+                                <i class="fab fa-github"> Github </i>
                             </a>
                         </div>
                     </div>
@@ -438,106 +460,84 @@
 
             <div class="col-md-4 mb-4 team-member">
                 <div class="card">
-                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="Team Member">
+                    <img src="./assets/jagad.jpg" class="card-img-top" alt="Team Member">
                     <div class="card-body">
-                        <h5 class="card-title">Nezo </h5>
-                        <p class="card-text">Description of team member 7.</p>
+                        <h5 class="card-title">Muhammad Jagad Kusuma</h5>
+                        <p class="card-text">Architecture Design.</p>
                         <!-- Social Media Links -->
                         <div class="social-icons">
-                            <a href="https://www.instagram.com" target="_blank" class="text-dark me-2">
-                                <i class="fab fa-instagram"></i>
+                            <a href="https://www.instagram.com/Jagadmuhammad" target="_blank" class="text-dark me-2">
+                                <i class="fab fa-instagram"> Instagram </i>
                             </a>
-                            <a href="https://www.linkedin.com" target="_blank" class="text-dark me-2">
-                                <i class="fab fa-linkedin"></i>
-                            </a>
-                            <a href="https://github.com" target="_blank" class="text-dark">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4 mb-4 team-member">
-                <div class="card">
-                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="Team Member">
-                    <div class="card-body">
-                        <h5 class="card-title">Muhammad Jagad</h5>
-                        <p class="card-text">Description of team member 7.</p>
-                        <!-- Social Media Links -->
-                        <div class="social-icons">
-                            <a href="https://www.instagram.com" target="_blank" class="text-dark me-2">
-                                <i class="fab fa-instagram"></i>
-                            </a>
-                            <a href="https://www.linkedin.com" target="_blank" class="text-dark me-2">
-                                <i class="fab fa-linkedin"></i>
+                            {{-- <a href="https://www.linkedin.com" target="_blank" class="text-dark me-2">
+                                <i class="fab fa-linkedin"> LinkedIn </i>
                             </a>
                             <a href="https://github.com" target="_blank" class="text-dark">
-                                <i class="fab fa-github"></i>
-                            </a>
+                                <i class="fab fa-github"> Github </i>
+                            </a> --}}
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-md-4 mb-4 team-member">
                 <div class="card">
-                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="Team Member">
+                    <img src="./assets/joe.jpg" class="card-img-top" alt="Team Member">
                     <div class="card-body">
                         <h5 class="card-title">Joe Mario</h5>
-                        <p class="card-text">Description of team member 7.</p>
+                        <p class="card-text">Architecture Design.</p>
                         <!-- Social Media Links -->
                         <div class="social-icons">
-                            <a href="https://www.instagram.com" target="_blank" class="text-dark me-2">
-                                <i class="fab fa-instagram"></i>
+                            <a href="https://www.instagram.com/Joeemarioo" target="_blank" class="text-dark me-2">
+                                <i class="fab fa-instagram"> Instagram </i>
                             </a>
-                            <a href="https://www.linkedin.com" target="_blank" class="text-dark me-2">
-                                <i class="fab fa-linkedin"></i>
+                            {{-- <a href="https://www.linkedin.com" target="_blank" class="text-dark me-2">
+                                <i class="fab fa-linkedin"> LinkedIn </i>
                             </a>
                             <a href="https://github.com" target="_blank" class="text-dark">
-                                <i class="fab fa-github"></i>
-                            </a>
+                                <i class="fab fa-github"> Github </i>
+                            </a> --}}
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-md-4 mb-4 team-member">
                 <div class="card">
-                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="Team Member">
+                    <img src="./assets/destri.jpg" class="card-img-top" alt="Team Member">
                     <div class="card-body">
-                        <h5 class="card-title">Destry</h5>
-                        <p class="card-text">Description of team member 7.</p>
+                        <h5 class="card-title">Destry Widiani</h5>
+                        <p class="card-text">Architecture Design.</p>
                         <!-- Social Media Links -->
                         <div class="social-icons">
-                            <a href="https://www.instagram.com" target="_blank" class="text-dark me-2">
-                                <i class="fab fa-instagram"></i>
+                            <a href="https://www.instagram.com/destry_widiani" target="_blank" class="text-dark me-2">
+                                <i class="fab fa-instagram"> Instagram </i>
                             </a>
-                            <a href="https://www.linkedin.com" target="_blank" class="text-dark me-2">
-                                <i class="fab fa-linkedin"></i>
+                            {{-- <a href="https://www.linkedin.com" target="_blank" class="text-dark me-2">
+                                <i class="fab fa-linkedin"> LinkedIn </i>
                             </a>
                             <a href="https://github.com" target="_blank" class="text-dark">
-                                <i class="fab fa-github"></i>
-                            </a>
+                                <i class="fab fa-github"> Github </i>
+                            </a> --}}
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-md-4 mb-4 team-member">
                 <div class="card">
-                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="Team Member">
+                    <img src="./assets/valenza.jpg" class="card-img-top" alt="Team Member">
                     <div class="card-body">
                         <h5 class="card-title">Valenza</h5>
-                        <p class="card-text">Description of team member 7.</p>
+                        <p class="card-text">Architecture Design.</p>
                         <!-- Social Media Links -->
                         <div class="social-icons">
-                            <a href="https://www.instagram.com" target="_blank" class="text-dark me-2">
-                                <i class="fab fa-instagram"></i>
+                            <a href="https://www.instagram.com/vallenza_" target="_blank" class="text-dark me-2">
+                                <i class="fab fa-instagram"> Instagram </i>
                             </a>
-                            <a href="https://www.linkedin.com" target="_blank" class="text-dark me-2">
-                                <i class="fab fa-linkedin"></i>
+                            {{-- <a href="https://www.linkedin.com" target="_blank" class="text-dark me-2">
+                                <i class="fab fa-linkedin"> LinkedIn </i>
                             </a>
                             <a href="https://github.com" target="_blank" class="text-dark">
-                                <i class="fab fa-github"></i>
-                            </a>
+                                <i class="fab fa-github"> Github </i>
+                            </a> --}}
                         </div>
                     </div>
                 </div>
@@ -628,27 +628,27 @@
         });
     </script>
     <script>
-    document.addEventListener("DOMContentLoaded", () => {
-        const navbar = document.querySelector(".navbar");
+        document.addEventListener("DOMContentLoaded", () => {
+            const navbar = document.querySelector(".navbar");
 
-        // Function to toggle classes based on scroll position
-        const toggleNavbarBackground = () => {
-            if (window.scrollY > 50) { // Jika scroll lebih dari 50px
-                navbar.classList.add("scrolled");
-                navbar.classList.remove("transparent");
-            } else {
-                navbar.classList.add("transparent");
-                navbar.classList.remove("scrolled");
-            }
-        };
+            // Function to toggle classes based on scroll position
+            const toggleNavbarBackground = () => {
+                if (window.scrollY > 50) { // Jika scroll lebih dari 50px
+                    navbar.classList.add("scrolled");
+                    navbar.classList.remove("transparent");
+                } else {
+                    navbar.classList.add("transparent");
+                    navbar.classList.remove("scrolled");
+                }
+            };
 
-        // Initialize on page load
-        toggleNavbarBackground();
+            // Initialize on page load
+            toggleNavbarBackground();
 
-        // Add scroll event listener
-        window.addEventListener("scroll", toggleNavbarBackground);
-    });
-</script>
+            // Add scroll event listener
+            window.addEventListener("scroll", toggleNavbarBackground);
+        });
+    </script>
 
 </body>
 
